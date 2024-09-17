@@ -1,4 +1,4 @@
-#HELLO!
+# HELLO!
 
 I'm a high school senior based in New Jersey, and I've begun the long and arduous (it seems at least) journey through The Odin Project. I have a background in Unity for 2+ years, Android Studio for 2+ years, Java for 3+ years...
 
