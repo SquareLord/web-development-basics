@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML LINKS/IMAGES</title>
+    </head>
+    <body>
+        <!--
+            This code was made in Linux. If you want to run this code:
+                - go to a Linux workspace (I used a Virtual Machine)
+                - Make sure you have Visual Studio Code and Google Chrome installed
+                - In the terminal, type: 
+                    - "touch index.html" // creates a HTML file called index.html 
+                    - "code index.html"  // opens index.html in Visual Studio Code
+                - When VSC opens, copy-paste this code into the new file. 
+                - In the terminal, type:
+                    - "google-chrome index.html" //opens file in Google Chrome        
+        -->
+        <h1>Homepage</h1>
+        <p>
+            <a href="https://youtube.com">THIS IS A LINK</a>
+        </p>
+        <p>
+            This link is created using the "a" tag. 
+        </p>
+        <p>
+            The HTML attribute "href" inside the beginning "a" tag will let you place a link inside for the anchor to redirect to. (This one redirects to YouTube.)
+        </p>
+        <p>
+            <a href="https://youtube.com" target="_blank">This link will open in a new tab.</a>
+            This link has the "target" HTML attribute set to "_blank", meaning it will open YouTube in a new window or tab.
+        </p>
+        <p>
+            <a href="https://youtube.com" target="_self">This link will open in this tab.</a>
+            This link has the "target" HTML attribute set to "_self", meaning it will open YouTube in the current tab.
+        </p>
+        <p>
+            <a href="https://youtube.com" target="_blank">This link will open in a new tab.</a>
+            This link has the "rel" HTML attribute set to "noopener", meaning the opened link will not gain access to the webpage from which it was opened.
+        </p>
+        <p>
+            <a href="https://youtube.com" target="_blank">This link will open in a new tab.</a>
+            This link has the "rel" HTML attribute set to "noreferrer", meaning the opened tab will not know the webpage it was opened from. (includes functionality of "noopener")
+        </p>
+        <p>
+            Noopener prevents phishing attacks, where the opened link will change the original website to a scam website in case you want to go back.
+        </p>
+        <p>
+            However, "_blank" in most browsers takes on the attributes of "noopener" and "noreferrer" anyway.
+        </p>
+
+        <!--ABSOLUTE AND RELATIVE LINKS-->
+
+        <p>
+            <a href="https://youtube.com">This is an absolute link, pointing to https://youtube.com.</a>
+            It will typically be in the format, protocol://domain/path.
+        </p>
+        <p>
+            <a href="relative.html">Link to relative site "relative.html"</a>
+        </p>
+        <p>
+            <a href="relative_directory/relative_in_directory.html">Link to relative site "relative.html"</a>
+        </p>
+    </body>
+</html>
