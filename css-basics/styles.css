@@ -1,0 +1,67 @@
+/*
+    INTRODUCTION TO CSS
+*/
+
+/* BASIC SYNTAX */
+div.bold-text {
+    font-weight: 700;
+}
+/*
+    - "div" refers to <div>, the HTML element that this CSS is modifying.
+    - "div.bold-text" is a selector.
+*/
+
+/* | SELECTORS | */
+
+/* This is the universal selector, which will modify any HTML elements of any type. Overwrites everything. */
+
+* {
+    color: purple;
+}
+
+/* This is a type selector, which will modify HTML elements that match its tag. */
+
+div {
+    color: orange;
+    background-color: yellow;
+}
+
+/* This is a class selector, which will modify HTML elements that match its class name. */
+
+.class-special-text {
+    color: red;
+}
+
+/* This is an ID selector, which will modify HTML elements that match its ID name. */
+
+#id-special-text {
+    color: white;
+    background-color: red;
+}
+
+/* Let's declare a filler group. */
+
+.filler-group {
+    color: white;
+    background-color: red;
+}
+
+/* Since id-special-text and filler-group have the same attributes, we can group them with a comma operator. */
+
+#id-special-text, .filler-group {
+    color: #ffffff;
+    background-color: rgb(255,0,0);
+}
+
+/* 
+    If we have a unique element that is only unique through having two separate class names (to limit the amount of total class names we have)
+    We can specify that element by chaining together different attributes.
+*/
+
+.id-special-text.id-special.other.text {
+    background-color: hsl(15, 82%, 56%);
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+}
+

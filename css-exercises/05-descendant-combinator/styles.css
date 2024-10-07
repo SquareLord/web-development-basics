@@ -1,0 +1,6 @@
+.container .text { /* alternatively, ".container p" could work, listing all the <p> elements that are descendants of the "container" div. */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

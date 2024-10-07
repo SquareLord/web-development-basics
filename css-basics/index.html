@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">                                   <!--Adding CSS to our HTML-->
+        <style>
+            h1 {
+                background-color: green;
+            }
+        </style>                                                                    <!--Inline CSS-->
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Modified by universal selector</p>               <!--This will be modified by the universal selector.-->
+        <div><p>This is another test.</p><div>              <!--These two will be modified by the "div" type selector. However, it is overwritten by the universal selector.-->
+        <div><p>This is yet another test.</p></div>
+        <div><p class="class-special-text">This is yet yet another test.</p></div>
+        <div><p id="id-special-text">This is yet yet another test.</p></div>
+        <div><p id="id-special-text id-special-other-text">This is yet yet yet another test.</p></div>
+
+    </body>
+</html>
